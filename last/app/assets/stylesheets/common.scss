@@ -1,0 +1,81 @@
+header {
+    text-align: center;
+    color: white;
+    background-color: #1f2e50;
+    width : 100%;
+    padding : 1px;
+    margin-bottom: 30px;
+}
+
+.task-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+table th{
+    font-size : 14px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #f5f4f4;
+    border-top: 1px solid #f5f4f4;
+}
+
+table td{
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #f5f4f4;
+    border-top: 1px solid #f5f4f4;
+}
+
+.notice {
+    background-color: #ccf;
+    padding: 5px;
+}
+body {
+    margin: 0; /* デフォルトの余白を消す（おすすめ） */
+    padding: 0;
+    background-color: rgb(240, 239, 239); /* 例：ダークテーマ背景 */
+  }
+
+.index-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    bottom : 20px;
+}
+.index-top {
+    position: relative;
+    left: 10px;
+}
+.new_button{
+    position: relative;
+    right: -300px;
+    background-color: rgb(16, 169, 224);
+    color: white;
+    padding: 10px 20px;
+}
+.new_button a{
+    color: white;
+    text-decoration: none;
+}
+table a{
+    color: blue;
+    text-decoration: none;
+}
