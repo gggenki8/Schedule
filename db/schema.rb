@@ -12,14 +12,4 @@
 
 ActiveRecord::Schema.define(version: 2025_05_08_060210) do
 
-  create_table "tasks", force: :cascade do |t|
-    t.string "title"
-    t.date "end_day"
-    t.boolean "all_day"
-    t.string "memo"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.date "start_day"
-  end
-
 end
